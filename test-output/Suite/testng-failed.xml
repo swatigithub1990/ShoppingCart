@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CartValidation(failed)">
+    <classes>
+      <class name="Shopping_Cart_Demo.Shopping_Cart_Demo.test.ShoppingCart">
+        <methods>
+          <include name="submit"/>
+          <include name="loginFailure"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Shopping_Cart_Demo.Shopping_Cart_Demo.test.ShoppingCart -->
+    </classes>
+  </test> <!-- CartValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
